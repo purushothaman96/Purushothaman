@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    #home {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      min-height: 100vh;
+      background-color: #f0e3ca;
+    }
+
+    #about {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: #e48257;
+      color: #393232;
+    }
+
+    #workExperience {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: #f0e3ca;
+    }
+
+    #contact {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: #393232;
+      color: #f0e3ca;
+      position: center;
+    }
+
+    #nav-profile-img {
+      padding-top: 0;
+      width: 50px;
+      border-radius: 50%;
+    }
+
+    .underlined {
+      border-bottom: 5px solid #e48257;
+    }
+
+    .navbar-inverse .navbar-toggle .icon-bar {
+      background-color: #e48257;
+    }
+
+    .navbar-brand {
+      padding-top: 0;
+    }
+
+    .navbar-inverse {
+      background-color: #393232;
+      border-color: #e48257;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+      color: #e48257;
+    }
+
+    .navbar-inverse .navbar-nav>.active>a,
+    .navbar-inverse .navbar-nav>.active>a:focus,
+    .navbar-inverse .navbar-nav>.active>a:hover {
+      color: #e48257;
+      background-color: #f0e3ca;
+      border-bottom: #e48257;
+    }
+
+    .progress {
+      position: relative;
+      height: 30px;
+      background-color: gray;
+    }
+
+    .progress-bar {
+      background-color: #f0e3ca;
+    }
+
+    .progress>.progress-type {
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      left: 0px;
+      height: 30px;
+      font-weight: 800;
+      padding: 3px 30px 2px 10px;
+    }
+
+    .progress>.progress-completed {
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      right: 0px;
+      font-weight: 800;
+      height: 30px;
+      padding: 3px 10px 2px;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      color: #f0e3ca;
+    }
+
+    .fa :hover {
+      cursor: pointer;
+      color: #f0e3ca !important;
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <div id="home" style=" display: flex; justify-content: center; align-items:center; " class="container-fluid">
+    <div style="text-align: center;">
+      <img src="assets/image/profilepicture.png" style="width: 200px; border-radius: 100%;vertical-align: middle;"
+        alt="Purushothaman Bhaskar">
+      <h1>Hi I'm <span style="color: #e48257;"><b style="font-family:Cursive">Purushothaman Bhaskar</b></span></h1>
+      </span>
+      <h2>Senior Software Engineer</h2>
+      <h3>Full stack developer</h3>
+      <h3>IOS developer</h3>
+    </div>
+  </div>
+
+  <div id="about" class="container-fluid">
+    <div class="container">
+      <h2>Objective</h2>
+      <p style="font-size: large; padding-top: 25px;">
+        To be associated with a progressive organisation that gives me the scope to apply my knowledge, innovative ideas
+        and skills to involve as a part of the team that dynamically works towards the growth of the organisation.
+      </p>
+    </div>
+
+    <div class="container" style="padding-top: 25px;">
+      <h2><span class="underlined"></span>Work Style</span></h2>
+      <p style="font-size: large; padding-top: 25px;">
+        I'm a Senior Software Engineer with 3 years of experience.<br>
+        Had my hands on developemement of Django web application, couple of iOS mobile applications and a RPC code
+        generator similar to GRPC written in golang.<br>
+        I've also writen multiple github actions using nodejs.<br>
+        Majorly an iOS developer but open to work on any technology.<br>
+        Very enthusiastic to take up any challenge that is thrown at me.<br>
+        My work doesn't end at solving the problem, I go further to make the solution better, maintainable and
+        reliable.<br>
+        I also strive to make reviewers and other developers life easy by writing clean, readable, maintainable code
+        with appropriate comments.<br>
+        I also make sure I write unit tests for all the APIs I write.<br>
+        And very important I love what I do.<br>
+      </p>
+    </div>
+
+    <div class="container">
+      <div style="padding-top: 25px;">
+        <h2>Skills</span></h2>
+      </div>
+      <div class="row" style="padding-top: 25px;">
+        <h5>SWIFT</h5>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+            style="width: 85%;">
+            <span class="sr-only">85% Complete</span>
+          </div>
+          <span class="progress-completed">85%</span>
+        </div>
+        <h5>Golang</h5>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+            style="width: 70%">
+            <span class="sr-only">70% Complete</span>
+          </div>
+          <span class="progress-completed">70%</span>
+        </div>
+        <h5>Python</h5>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+            style="width: 60%">
+            <span class="sr-only">60% Complete</span>
+          </div>
+          <span class="progress-completed">60%</span>
+        </div>
+        <h5>HTML / CSS</h5>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+            style="width: 50%">
+            <span class="sr-only">50% Complete</span>
+          </div>
+          <span class="progress-completed">50%</span>
+        </div>
+        <h5>JavaScript / jQuery</h5>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+            style="width: 50%">
+            <span class="sr-only">50% Complete (success)</span>
+          </div>
+          <span class="progress-completed">50%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="padding-top: 25px;">
+      <h2><span class="underlined"></span>Education</span></h2>
+      <p style="font-size: large; padding-top: 25px;">
+        BE in computer science
+        CMRIT (73.77%)
+      </p>
+      <p style="font-size: large;">
+        2nd PUC
+        SJPUC (90.50%)
+      </p>
+      <p style="font-size: large;">
+        10th STD
+        Madonna School (94.72 %)
+      </p>
+    </div>
+  </div>
+
+  <div id="workExperience" class="container-fluid">
+    <h2>Surya Software Systems Private Limited </h2>
+
+    <h3>Senior Software Engineer Feb 2021 - Present</h3>
+    <h3> Software Engineer 2 August 2019 - Feb 2021</h3>
+    <h3>Software Engineer July 2018 - Feb 2019</h3>
+
+    <h4>IOS Developer Project: An object detection app, ARKit app (Custom apps, cannot mention the names of the app due
+      to privacy of the company)</h4>
+    <ul>
+      <li>Developing iOS applications using Swift, RxSwift.</li>
+      <li>Worked on image processing using openCV.</li>
+      <li>Worked on taking best quality images.</li>
+      <li>Written production level UITests and Unit tests.</li>
+      <li>Worked with multiple frameworks like UIKit, ARKit, CoreMotion, WebKit, AVFoundation etc. UI design
+        implementation both programmatically using auto layouts.</li>
+      <li>Implemented application designs based on customised architecture which is similar to MVC.</li>
+      <li>Worked on multiple features that involves camera, AVPlayer, client-server communication, API calls etc. Worked
+        on project that involves complete ARKit.</li>
+    </ul>
+
+    <h4>Django/Python developer Project: Katana</h4>
+    <ul>
+      <li>Developing and maintaining a web application that is built using Django web framework(Python) single-handedly
+        Working as a full stack developer , responsible for both front end and back end development and maintenance
+        Using PSQL database with python.</li>
+      <li>Managed continuous integration, maintenance and troubleshooting.</li>
+      <li>Implemented many features like import and export of millions of data using CSV and JSON file, feature for
+        prioritising the tasks under a project etc.</li>
+      <li>Used GIT for version control.</li>
+      <li>Used Bootstrap, css, javascript for the front end.</li>
+    </ul>
+
+    <h4>Go Developer Project: RPC-Gen (An automated code generation tool)</h4>
+    <ul>
+      <li>Developed a RPC code generator tool similar to GRPC.</li>
+      <li>Generates Kotlin server code for the RPC.</li>
+      <li>Generates Kotlin android client code for the RPC.</li>
+      <li>Generates JVM Client code for the RPC.</li>
+      <li>Generates Swift Client code for the RPC.</li>
+      <li>Worked independently on the entire project from setting up the project to implementing, testing and setting up
+        CI.</li>
+    </ul>
+
+    <h4>Grails Developer Project: Atlas</h4>
+    <ul>
+      <li>Web application to manage school data that was developed using grails framework Managed continuous
+        integration, maintenance and troubleshooting.</li>
+      <li>Used PostgreSQL database.</li>
+      <li>Worked only on the bug fixes in the project was not part of the development.</li>
+    </ul>
+
+    <h2>Hitachi Solutions</h2>
+    <h3> Software Engineer Intern February 2018 - May 2018</h3>
+    <ul>
+      <li>Implemented a cost tracking feature in CRM that keeps track of project ,budget ,bid packages, invoices and
+        interactions between the organisation and the vendor.</li>
+      <li>Worked on both front end and back end of the project.</li>
+      <li>Built a portal(using MVC) for vendor to bid for open commitments and send invoices using .Net MVC framework
+        Created forms, views, workflows and Plug-ins for the CRM.</li>
+    </ul>
+  </div>
+
+  <div id="contact" class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        Purushothaman Bhaskar<br>
+        Senior Software Engineer<br>
+        Bangalore<br>
+        bpurushothaman96@gail.com<br>
+        (+91) 8553663706<br>
+      </div>
+      <div class="col-md-6">
+        <a href="https://www.facebook.com/purushothaman.thaman.5" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/purushothaman96" class="fa fa-twitter"></a>
+        <a href="https://in.linkedin.com/in/purushothaman-bhaskar-6a1790123" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/puru_virus" class="fa fa-instagram"></a>
+        <a href="https://github.com/purushothaman96" class="fa fa-github"></a>
+      </div>
+    </div>
+    <div class="row" style="padding-top: 25px;">
+      <div class="col-md-6">
+        &copy; 2021 Purushothaman Bhaskar.
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
